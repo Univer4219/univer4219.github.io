@@ -10,9 +10,10 @@ The project includes leasing housing for rental on a monthly basis and for daily
 </li>
 <li><a href="https://github.com/MosesOchieng">Moses Ochieng</a><br> Phone: 0745092523<br> Email: mosesochiengopiyo@gmail.com
 </li>
-<li><a href = "https://github.com/Univer4219">Univer Atieno Omoro</a> Phone: 0792842466<br> Email: omorouniver9@gmail.com
+<li><a href = "https://github.com/Univer4219">Univer Atieno Omoro</a><br> Phone: 0792842466<br> Email: omorouniver9@gmail.com
 </li>
-<li></li>
+  <li><a href ="">Joylene Kirui</a><br> Phone: 0715247400<br> Email: joylene.c.kirui@gmail.com
+  </li>
 </ul>
 <u><h3>Programming Languages Used</h3></u>
 <ul><li>PHP</li>
