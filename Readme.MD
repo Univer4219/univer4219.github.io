@@ -19,10 +19,10 @@ The project includes leasing housing for rental on a monthly basis and for daily
 <li>LESS</li>
 </ul>
 <h3><u>Project Features</u></h3>
-<ol>Login Pages</ol>
+<ul><ol>Login Pages</ol></ul>
 <p>The login pages is found in the navbar of the homepage under pages, it's meant for agents to use to login to the admin dashboard and view the activities on the website by clients, this include the total number of houses rented, locations and to add new rental houses</p><br>
-<ol>Sign Up Pages</ol>
+<ul><ol>Sign Up Pages</ol></ul>
 <p>It's for agents to create accounts with the website</p>
 <br>
-<ol>Site Maps</ol>
+<ul><ol>Site Maps</ol></ul>
 <p>To show the location of the headquarters of SambiEstate Agents and their offices</p><br>
