@@ -12,7 +12,7 @@ The project includes leasing housing for rental on a monthly basis and for daily
 </li>
 <li><a href = "https://github.com/Univer4219">Univer Atieno Omoro</a><br> Phone: 0792842466<br> Email: omorouniver9@gmail.com
 </li>
-  <li><a href ="">Joylene Kirui</a><br> Phone: 0715247400<br> Email: joylene.c.kirui@gmail.com
+  <li><a href ="https://github.com/JoyleneKirui">Joylene Kirui</a><br> Phone: 0715247400<br> Email: joylene.c.kirui@gmail.com
   </li>
 </ul>
 <u><h3>Programming Languages Used</h3></u>
@@ -30,3 +30,5 @@ The project includes leasing housing for rental on a monthly basis and for daily
 <br>
 <ul><ol>Site Maps</ol></ul>
 <p>To show the location of the headquarters of SambiEstate Agents and their offices</p><br>
+<p> We have developed users registration to xampp database with php allowing users to login be saved and have accounts.The booking process is in php too.</p>
+
