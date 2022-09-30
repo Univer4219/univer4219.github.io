@@ -6,9 +6,12 @@ The project includes leasing housing for rental on a monthly basis and for daily
 <h3><u>Project Contributors</u></h3>
 <ul><li><a href="https://github.com/Kay-raph">Kevin Mugita</a><br>Phone: 0710288908 <br> Email: kevmugita@gmail.com
 </li>
-<li><a href="https://github.com/Kaharakhan">Kahara Khan</a><br> Phone: 0724508990 <br> Email: </li>
-<li><a href="https://github.com/MosesOchieng">Moses Ochieng</a><br> Phone: 0745092523<br> Email: </li>
-<li></li>
+<li><a href="https://github.com/Kaharakhan">Kahara Khan</a><br> Phone: 0724508990 <br> Email: Kaharakhan@gmail.com
+</li>
+<li><a href="https://github.com/MosesOchieng">Moses Ochieng</a><br> Phone: 0745092523<br> Email: mosesochiengopiyo@gmail.com
+</li>
+<li><a href = "https://github.com/Univer4219">Univer Atieno Omoro</a> Phone: 0792842466<br> Email: omorouniver9@gmail.com
+</li>
 <li></li>
 </ul>
 <u><h3>Programming Languages Used</h3></u>
