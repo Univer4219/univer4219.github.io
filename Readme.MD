@@ -30,5 +30,6 @@ The project includes leasing housing for rental on a monthly basis and for daily
 <br>
 <ul><ol>Site Maps</ol></ul>
 <p>To show the location of the headquarters of SambiEstate Agents and their offices</p><br>
+<ul><ol>Functionality</ol></ul>
 <p> We have developed users registration to xampp database with php allowing users to login be saved and have accounts.The booking process is in php too.</p>
 
