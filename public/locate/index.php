@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>locate</title>
   <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -23,14 +23,14 @@
             <div class="form-group">
               <label class="control-label" for="source">Location :</label>
               <select class="form-control">
-                <optgroup label=''>
-                  <option selected>House in 🌍204.61.212.0 → 204.61.218.255 🗓2015-11-13 12:34:23</option>
+                <optgroup label='' disabled>
+                  <option >House in 🌍204.61.212.0 → 204.61.218.255 🗓2015-11-13 12:34:23</option>
                   <option>client 🌍204.61.0.0 → 204.61.255.255 🗓2015-11-10 22:31:13</option>
                 </optgroup>
-                <optgroup label=''>
+                <optgroup label='' disabled>
                   <option> ☑ Admin jtodd 🌍204.61.213.0 → 204.61.213.255 🗓2015-10-13 02:34:23</option>
                 </optgroup>
-                <optgroup label=''>
+                <optgroup label='' disabled>
                   <option>Admin mohammed 🌍204.61.213.0 → 204.61.213.255 🗓2015-01-13 10:30:23</option>
                   <option>Whois ARIN 🌍204.61.212.0 → 204.61.218.255 🗓2015-05-10 12:34:23</option>
                 </optgroup>
@@ -55,8 +55,24 @@
                 </select>
               </div>
               <br>
+              <div class="form-group">
+                <label class="control-label" for="owner_sowner_longhort">Deposit:</label>
+                <select class="form-control">
 
-              <div class="form-group has-warning">
+                    <option selected>Choose options</option>
+
+                  </optgroup>
+
+                    <option> ☑ + Deposit</option>
+                  </optgroup>
+
+                    <option> ☑ No Deposit</option>
+
+                  </optgroup>
+                </select>
+              </div>
+              <br>
+              <div class="form-group">
                 <label class="control-label" for="owner_short">Floor:</label>
                 <select class="form-control">
 
@@ -150,20 +166,29 @@
                 <div class='col-sm-4'>
                   <div class="form-group">
                     <label for="country">Ward:</label>
-                    <input type="text" class="form-control" id="country" value=''>
+                    <input type="text" id="ward" class="form-control" id="country" value=''>
                   </div>
                 </div>
               </div>
               <div class='row'>
                 <div class='col-sm-6'>
                   <div class="form-group">
-                    <label for="longitude">Closest Road:</label>
-                    <input type="text" class="form-control" id="longitude" value=''>
+                    <label for="longitude" id="building">Bulding name :</label>
+
+                    <input type="text" class="form-control" id="building" value=''>
+                    <script type="text/javascript">
+    $(function () {
+        $("#btnQueryString").bind("click", function () {
+            var url = " ../building/index.html?name=" + encodeURIComponent($("building").val()) + "&ward=" + encodeURIComponent($("#ward").val()) + "&rent=" +  encodeURIComponent($("#rent").val())+ "&deposit=" + encodeURIComponent($("#deposit").val()) + encodeURIComponent($("#room").val());
+            window.location.href = url;
+        });
+    });
+</script>
                   </div>
                 </div>
                 <div class='col-sm-6'>
                   <div class="form-group">
-                    <label for="latitude">Closest Goverment Insitute:</label>
+                    <label for="latitude">Closest Goverment Building:</label>
                     <input type="text" class="form-control" id="latitude" value='' />
                   </div>
                 </div>
@@ -172,22 +197,30 @@
                 <div class="form-group">
                   <label for="source">Type of rooms:</label>
                   <select class="form-control">
-                    <optgroup label='Thrid party'>
-                      <option selected> ☑ 1 - 5</option>
+                    <optgroup label=''>
+                      <option selected> ☑Choose options</option>
 
                     </optgroup>
-                    <optgroup label='Admin'>
-                      <option >☑ 6 - 10</option>
+                    <optgroup label="">
+                      <option > ☑ Bed Sitter</option>
 
                     </optgroup>
-                    <optgroup label='History'>
-                      <option>☑ 11 - 12</option>
+                    <optgroup label=''>
+                      <option >☑ Single room</option>
+
+                    </optgroup>
+                    <optgroup label=''>
+                      <option>☑ Double room</option>
+                    </optgroup>
+                    <optgroup label=''>
+                      <option > ☑ Self Contained</option>
+
                     </optgroup>
                   </select>
                 </div>
                 <div class='well'>
                   <div class="form-group">
-                    <label for="source">Rent Fess</label>
+                    <label for="source">Rent Fees</label>
                     <select class="form-control">
                       <optgroup label='Small sized rooms'>
                         <option selected> ☑ 3000 - 5000</option>

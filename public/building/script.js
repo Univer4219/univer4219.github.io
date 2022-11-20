@@ -97,7 +97,7 @@ $(document).ready(function() {
 		$(this).on('click', function(evt){
 			$this = $(this);
 			var dtRow = $this.parents('tr');
-			if(confirm("Are you sure to delete this row?")){
+			if(confirm("Are you sure to delete the informatin about this building ?")){
 				var table = $('#example').DataTable();
 				table.row(dtRow[0].rowIndex-1).remove().draw( false );
 			}

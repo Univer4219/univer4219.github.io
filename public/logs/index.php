@@ -7,7 +7,7 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+<!-- pasrtial:index.partial.html -->
 <body>
     <div class="full-screen-container">
       <div class="login-container">

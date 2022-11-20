@@ -66,8 +66,8 @@
 
 			<div class="colorlib-footer">
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> Distributed by: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a></span></small></p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Shamba <i class="icon-heart" aria-hidden="true"></i> Ride <a href="#" target="_blank"></a>  <a href="#" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span><a href="#" target="_blank"></a></span></small></p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -114,7 +114,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_3.jpg);">
+				   	<li style="background-image: url(images/sha.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -191,8 +191,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 											<i class="flaticon-worker"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>General Conctructing</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Backend ,APIs,Jquery and Ajax</h3>
+											<p>Moses and Joylene worked on the backend and the jquery requests for the page.. </p>
 										</div>
 									</div>
 
@@ -201,8 +201,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 											<i class="flaticon-sketch"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Pre-Contruction Design</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Front End Development</h3>
+											<p>Univer was responsible for Front End Development and Design. </p>
 										</div>
 									</div>
 
@@ -211,8 +211,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 											<i class="flaticon-engineering"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Building &amp; Modeling</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Front End Development</h3>
+											<p>Kevin Mugita was responsible fot ehe Front End Design. </p>
 										</div>
 									</div>
 
@@ -221,8 +221,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 											<i class="flaticon-crane"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Construction Management</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Cloud Engineer</h3>
+											<p>.Kahra Khan.Project Deployment </p>
 										</div>
 									</div>
 								</div>
@@ -232,35 +232,35 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made 
 							<div class="row">
 								<div class="col-md-6">
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-1.jpg)"></div>
+										<div class="services-img" style="background-image: url(images/kevin.jpg)"></div>
 										<div class="desc">
-											<h3>Design &amp; Build</h3>
+											<h3>Kevin Mugita</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-2.jpg)"></div>
+										<div class="services-img" style="background-image: url(images/univer.jpg)"></div>
 										<div class="desc">
-											<h3>House Remodeling</h3>
+											<h3>Univer Omoro</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-3.jpg)"></div>
+										<div class="services-img" style="background-image: url(images/moses.jpg)"></div>
 										<div class="desc">
-											<h3>Construction Management</h3>
+											<h3>Moses Ochieng</h3>
 										</div>
 									</a>
 								</div>
 								<div class="col-md-6 move-bottom">
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-4.jpg)"></div>
+										<div class="services-img" style="background-image: url(images/kahara.jpg)"></div>
 										<div class="desc">
-											<h3>Painting &amp; Tiling</h3>
+											<h3>Kahara Khan</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-5.jpg)"></div>
+										<div class="services-img" style="background-image: url(images/joy.jpg)"></div>
 										<div class="desc">
-											<h3>Kitchen Remodeling</h3>
+											<h3>Joylene Kirui</h3>
 										</div>
 									</a>
 								</div>

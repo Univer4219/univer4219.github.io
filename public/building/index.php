@@ -194,6 +194,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Book</button>
       </div>
     </div>
 
@@ -212,6 +213,25 @@
 <script src='https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js'></script>
 <script src='https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+<script type="text/javascript">
+    var queryString = new Array();
+    $(function () {
+        if (queryString.length == 0) {
+            if (window.location.search.split('?').length > 1) {
+                var params = window.location.search.split('?')[1].split('&');
+                for (var i = 0; i < params.length; i++) {
+                    var key = params[i].split('=')[0];
+                    var value = decodeURIComponent(params[i].split('=')[1]);
+                    queryString[key] = value;
+                }
+            }
+        }
+        if (queryString["name"] != null && queryString["ward"] != null  && queryString["rent"] != null  && queryString["deposit"] != null  && queryString["room"] != null) {
+            var data = "<u>Values from QueryString</u><br /><br />";
+            data += "<b>Name:</b> " + queryString["name"] + " <b>Technology:</b> " + queryString["technology"];
+            $("#lblData").html(data);
+        }
+    });
+</script>
 </body>
 </html>
