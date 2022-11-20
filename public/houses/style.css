@@ -1,0 +1,178 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+
+  transition: ease-in-out 0.5s;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: #242426;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#visualization-canvas{
+  gap: 2em;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+}
+
+#visualization-canvas * {
+  transition: all ease-in-out 0.5s;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  background: white;
+
+  /* font-size: 0.5em; */
+}
+
+.control-wrapper{
+  margin: 1em 0;
+  display: flex;
+  gap: 1em;
+}
+
+.button{
+  padding: 0.2em 2em;
+  color: white;
+  background: #1d1e23;
+}
+
+#randomize-algorithm{
+  background: #5f5feb;
+}
+
+.number-container {
+  /* margin: 0.5em;
+   */
+
+  height: 100%;
+  /* width: 100%;
+   */
+   padding-top: 100%;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 1px 2px 14px -1px rgba(255, 8, 12, 0.653)
+
+}
+
+.number {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.number-wrapper {
+  color: rgb(103, 99, 99);
+  padding: 0.3em;
+  flex: 1;
+}
+
+.pointer {
+  top: -10px;
+  left: 0;
+  position: fixed;
+  /* puts the pointer at the top center of the screen */
+  transform: translate(calc( 50vw - 50%));
+}
+
+svg {
+  opacity: 0;
+  display: none;
+}
+.pointer > svg {
+  opacity: 1;
+  display: block;
+}
+
+button svg {
+  opacity: 1;
+  width: 1em;
+  display: block;
+}
+
+.bound {
+  width: 1.5px;
+  height: 100%;
+  position: absolute;
+  background: rgb(94, 55, 237);
+}
+
+.shadow {
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(94, 94, 155, 0.407);
+  position: absolute;
+  transform-origin: left;
+}
+
+/* controls stylings */
+
+#settings {
+  top: 0;
+  padding: 1em;
+  resize: both;
+  color: rgb(194, 189, 189);
+  position: fixed;
+  background-color: rgba(19, 19, 19, 0.811); 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  overflow: hidden;
+  transition: none;
+}
+
+#settings div{
+  align-self: flex-end;
+}
+
+#algorithm-choices {
+  /* background: blue; */
+
+  margin: 1em 0;
+}
+
+.algorithm-label{
+  color: rgb(222, 217, 217);
+font-size: 2em;
+  width: fit-content;
+  margin: auto;
+}
+
+input,  button {
+  /* display: block;
+   */
+  margin: 0.2em 0;
+  padding: 0.2em;
+  border-radius: 2px;
+}
+
+input {
+  background: black;
+  color: white;
+}
+.double-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  width: fit-content;
+}

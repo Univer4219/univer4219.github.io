@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Algorithm  visualization</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="visualization-canvas">
+
+  </div>
+
+  <div id="settings">
+    <div>
+
+      Algorithm choices
+
+      <div class="double-row" id="algorithm-choices">
+        <div>
+          <input type="checkbox" name="search-algorithm" value="binarySearch" id="binarySearch" />
+          <label for="binarySearch"> binary search</label>
+        </div>
+
+        <div>
+
+          <input type="checkbox" name="search-algorithm" value="linearSearch" id="linearSearch" />
+          <label for="linearSearch"> linear search </label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="search-algorithm" value="funkySearch" id="funkySearch" />
+          <label for="funkySearch"> funky search </label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="search-algorithm" value="justGoingForIt" id="justGoingForIt" />
+          <label for="justGoingForIt"> If it works, it works </label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="search-algorithm" value="AtLeastIamTrying" id="AtLeastIamTrying" />
+          <label for="AtLeastIamTrying"> At least he is trying</label>
+        </div>
+
+      </div>
+      
+      
+      <div class="double-row">
+        <label> Array Input : </label><input type="text" id="array-input" />
+        <label> Target : </label> <input type="number" id="target-input" />
+        <label>Input length : </label> <input type="number" id="length-input" /><br />
+      </div>
+      
+      <button id="randomize-algorithm" class="button">Randomize</button><br />
+      
+      <div class="control-wrapper">
+        
+      <button id="rewind-algorithm">
+        <svg viewBox="0 0 448 512" width="100" title="arrow-left">
+          <path
+          d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z" />
+        </svg>
+      </button>
+      
+      <button id="run-pause">
+        </button>
+      
+      <button id="advance-algorithm">
+        <svg viewBox="0 0 448 512" width="100" title="arrow-right" style="">
+          <path fill="black"
+          d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+        </svg>
+      </button>
+      
+      
+      <button id="reset-algorithm" class="button">
+        reset
+      </button>
+      </div>
+      
+    </div>
+    </div>
+    
+    <svg viewBox="0 100 320 300" width="1em" title="angle-down" id="array-pointer">
+      <path fill="#f36e6e"
+      d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" />
+    </svg>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
